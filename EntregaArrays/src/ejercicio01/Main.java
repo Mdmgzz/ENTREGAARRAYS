@@ -58,7 +58,7 @@ public static void main(String[] args) {
 		// ahora es el momento de comprobar si en el numero dicho por el usuario hay una mina
 		for (int i=0;i<tablerOculto.length;i++) {
 			if (tablero[numero]=="*") {
-				
+				System.out.println("HAS PERDIDO");
 			}
 		}
 		
